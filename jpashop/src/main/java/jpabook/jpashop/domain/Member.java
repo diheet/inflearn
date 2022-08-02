@@ -22,5 +22,6 @@ public class Member {
     @Embedded // 내장타입?
     private Address address;
 
+    @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
 }
