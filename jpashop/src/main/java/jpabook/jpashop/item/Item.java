@@ -1,4 +1,4 @@
-package jpabook.jpashop.domain.item;
+package jpabook.jpashop.item;
 //추상클래스
 
 import jpabook.jpashop.domain.Category;
